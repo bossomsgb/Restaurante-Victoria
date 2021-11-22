@@ -1,0 +1,28 @@
+header{ 
+    top: 0;
+    padding: 0; 
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+        nav{
+            ul{ 
+                background-color: $c-Claro;
+                padding: 2px;
+                li{
+                    background-color: $c-Rrojo;
+                    a{ 
+                        color:black;
+                        font-size: 16px; 
+                        text-decoration: none;
+                        img{
+                            width: 100px;
+                        }
+                    } 
+                     a:hover{
+                       color:$c-RojoC;
+                    } 
+                }
+            }
+        } 
+    }
+        

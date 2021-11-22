@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+        font-family: 'M PLUS 1', sans-serif;
+        background-image: linear-gradient(to bottom $c-Rojo,$c-RojoC,$c-Claro); 
+        .contenedor{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: auto;
+        } 
+    }

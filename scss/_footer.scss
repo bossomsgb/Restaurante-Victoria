@@ -1,0 +1,40 @@
+footer{
+    background:$c-Claro;
+    border-top: solid $c-Medio 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h3,h4{
+        text-align: center;
+        font-size: 18px;
+    }
+    ul{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color:$c-Rojo;
+                font-size: 16px;
+                img{
+                    background: radial-gradient(ellipse ,$c-Rojo, $c-Medio,$c-Rrojo);
+                    width: 40px;
+                    transition: all 1s;   
+                    opacity: .7; 
+                    width: 50px;
+                    padding: 1px;
+                    display: flex;
+                    justify-content: center;
+                }
+                img:hover{
+                    width: 24px;
+                    padding: 2px;
+                    background-color: $c-Claro;
+                }
+             }
+        }
+    }   
+} 
